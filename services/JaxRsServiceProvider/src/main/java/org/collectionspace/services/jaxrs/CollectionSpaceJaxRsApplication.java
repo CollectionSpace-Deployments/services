@@ -52,6 +52,8 @@ import org.collectionspace.services.organization.OrgAuthorityResource;
 import org.collectionspace.services.person.PersonAuthorityResource;
 import org.collectionspace.services.citation.CitationAuthorityResource;
 import org.collectionspace.services.conditioncheck.ConditioncheckResource;
+import org.collectionspace.services.presentation.PresentationResource;
+import org.collectionspace.services.exhibition.ExhibitionAuthorityResource;
 
 import javax.servlet.ServletContext;
 import javax.ws.rs.core.Application;
@@ -126,6 +128,8 @@ public class CollectionSpaceJaxRsApplication extends Application
         addResourceToMapAndSingletons(new MovementResource());
         addResourceToMapAndSingletons(new ReportResource());
         addResourceToMapAndSingletons(new PublicItemResource());
+        addResourceToMapAndSingletons(new PresentationResource());
+        addResourceToMapAndSingletons(new ExhibitionAuthorityResource());
 
         singletons.add(new IDResource());
         

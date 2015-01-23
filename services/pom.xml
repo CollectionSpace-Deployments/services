@@ -61,6 +61,7 @@
         <module>intake</module>
         <module>loanin</module>
         <module>loanout</module>
+        <module>presentation</module>
         <module>conditioncheck</module>
         <module>valuationcontrol</module>
         <module>objectexit</module>
@@ -69,6 +70,7 @@
         <module>location</module>
         <module>place</module>
         <module>work</module>
+        <module>exhibition</module>
         <module>concept</module>
         <module>taxonomy</module>
         <module>movement</module>
